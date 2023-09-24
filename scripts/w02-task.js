@@ -13,7 +13,8 @@ const imageElement = document.querySelector('img')
 
 nameElement.innerHTML=`<strong>${fullname}</strong>`;
 yearElement.textContent=currentYear;
-imageElement.setAttribute('src',profilePicture)
+imageElement.setAttribute('src',profilePicture);
+imageElement.setAttribute('alt', `Progile image of ${fullname}`);
 
 /* Step 3 - Element Variables */
 
