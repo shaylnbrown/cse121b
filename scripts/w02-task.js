@@ -7,9 +7,13 @@ let fullname = "Shay Brown";
 let currentYear = 2023;
 let profilePicture = "images/ProfilePic.jpg";
 const nameElement=document.getElementById('name');
+const foodElement=document.getElementById('food');
+const yearElement = document.querySelector('#year');
+const imageElement = document.querySelector('img')
 
-
-
+nameElement.innerHTML=`<strong>${fullname}</strong>`;
+yearElement.textContent=currentYear;
+imageElement.setAttribute('src',profilePicture)
 
 /* Step 3 - Element Variables */
 
