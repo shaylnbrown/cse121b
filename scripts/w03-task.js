@@ -26,7 +26,7 @@ let subtractNumbers = function ()
 {
     let num1=Number(document.querySelector('#subtract1').value);
     let num2=Number(document.querySelector('#subtract2').value);
-    document.querySelector('#product').value=multiply(num1, num2);
+    document.querySelector('#difference').value=subtract(num1, num2);
 }
 document.querySelector('#subtractNumbers').addEventListener('click',subtractNumbers);
 
